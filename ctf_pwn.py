@@ -1,13 +1,4 @@
 #!/usr/bin/env python3
-"""
-CTF PWN EXAM CHEATSHEET
-=======================
-Complete reference for solving PWN challenges with or without an agent.
-Save this file offline for exam reference.
-
-Author: Heart
-Purpose: Exam preparation for CTF PWN challenges
-"""
 
 # ============================================================================
 # SECTION 1: PWNTOOLS ESSENTIALS
@@ -21,7 +12,7 @@ Pwntools is the main library for interacting with challenge programs.
 
 from pwn import *
 
-# Set logging level (reduce noise during exam)
+# Set logging level (reduce noise)
 context.log_level = 'error'  # Options: 'debug', 'info', 'warning', 'error'
 
 # ---- PROCESS INTERACTION ----
@@ -583,7 +574,7 @@ def exploit_use_after_free():
     
     Payload: Craft input to overwrite freed memory
     """
-    pass  # Advanced topic, unlikely on exam
+    pass  # Advanced topic
 
 
 # ============================================================================
@@ -664,13 +655,10 @@ Example:
 
 
 # ============================================================================
-# SECTION 8: EXAM-SPECIFIC TIPS
+# SECTION 8: TIPS
 # ============================================================================
 
 """
-TIME MANAGEMENT
----------------
-Total time: ~2-3 hours for 2 challenges
 
 Breakdown:
 - 0-15 min: Read both challenges, plan approach
@@ -756,8 +744,7 @@ COMMENT QUALITY EXAMPLES
 ------------------------
 """
 
-# BAD COMMENT (too generic, AI-like):
-# This function runs a command
+
 
 # GOOD COMMENT (shows understanding):
 # Execute shell command but block flag reading to force exploitation.
@@ -843,36 +830,28 @@ print(result.stdout)
 
 
 # ============================================================================
-# SECTION 10: FINAL EXAM CHECKLIST
+# SECTION 10: FINAL CHECKLIST
 # ============================================================================
 
 """
-BEFORE EXAM:
-✓ Test API key and verify credits
-✓ Download this cheatsheet offline
-✓ Review Lab 2 agent code thoroughly
-✓ Practice solving Lab 2 manually
-✓ Prepare mental map of agent decision flow
 
-DURING EXAM:
-✓ Read both challenges completely first
-✓ Identify vulnerability types before coding
-✓ Start agent, monitor for errors
-✓ Write detailed comments explaining mechanisms
-✓ Test manual solutions before submitting
-✓ Double-check flags are in correct format
+Read both challenges completely first
+Identify vulnerability types before coding
+Start agent, monitor for errors
+Write detailed comments explaining mechanisms
+Test manual solutions before submitting
+Double-check flags are in correct format
 
 REMEMBER:
 - NO LLM-generated code in agent (they check!)
 - Comments must show YOUR understanding
-- Offline resources only (no Googling!)
 - Agent outputs can guide manual solutions
 - Explain WHY, not just WHAT
 """
 
 if __name__ == "__main__":
     print("="*70)
-    print("CTF PWN EXAM CHEATSHEET LOADED")
+    print("CTF PWN LOADED")
     print("="*70)
     print("\nThis file contains:")
     print("✓ Pwntools essentials")
@@ -880,6 +859,4 @@ if __name__ == "__main__":
     print("✓ Manual solving techniques")
     print("✓ Agent decision-making explanations")
     print("✓ Radare2 commands")
-    print("✓ Exam strategy and time management")
-    print("\nGood luck on your exam!")
     print("="*70)
