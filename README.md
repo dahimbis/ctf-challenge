@@ -1,4 +1,4 @@
-# Capture the Flag Challenge 2025
+# Capture the Flag Challenge (CTF) 2025
 A collection of Capture The Flag (CTF) challenges and solutions focused on adversarial machine learning and cybersecurity.
 
 ## 📁 Repository Contents
