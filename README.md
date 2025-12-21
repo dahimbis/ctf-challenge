@@ -1,6 +1,6 @@
-# Capture the Flag Challenge (CTF) 2025
+# Agentic Based Capture the Flag Challenge (CTF) 2025
 A collection of Capture The Flag (CTF) challenges and solutions focused on adversarial machine learning and cybersecurity.
-Agentic based CTF 
+Agentic based CTF - using LLMs to find vulnerabilities in programs.
 
 ## 📁 Repository Contents
 
