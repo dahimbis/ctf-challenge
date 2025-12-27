@@ -39,6 +39,7 @@ jupyter notebook
 - Python exploitation scripting
 - AI-powered security testing
 
-## 📝 Solutions
+## 📝 Additionals
 
-Manual solutions and walkthroughs are included in the notebooks. Check commit history for detailed explanations.
+Manual solutions for solving the challenges and walkthroughs are included in the notebooks. 
+Also, remember to set up your own API keys.
