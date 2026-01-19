@@ -6,7 +6,7 @@ Agentic-based CTF - using LLMs such as ChatGPT, Gemini, and Claude to find vulne
 
 - **`Lab3.ipynb`** - Main CTF challenge notebook with adversarial ML attacks
 - **`Practice1.ipynb`** - Practice exercises and warm-up challenges
-- **`Practice5.ipynb`** - Advanced practice problems
+- **`Practice5.ipynb`** - Other practice problems
 - **`agent.py`** - AI agent implementation for automated exploitation
 - **`ctf_pwn.py`** - PWN challenge exploitation scripts
 
