@@ -43,3 +43,9 @@ jupyter notebook
 
 Manual solutions for solving the challenges and walkthroughs are included in the notebooks. 
 Also, remember to set up your own API keys.
+
+## Finals
+
+The Finals involved two challenges: follow the pwnie and Sharpgames.
+
+
