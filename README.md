@@ -48,4 +48,5 @@ Also, remember to set up your own API keys.
 
 The Finals involved two challenges: follow the pwnie and Sharpgames.
 
-
+Follow the pwnie involved finding the file that contains the correct flag, extract the content and print you have won.
+Sharp games -> involved
