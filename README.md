@@ -1,4 +1,4 @@
-# Agentic Based Capture the Flag Challenge (CTF) 2025
+# Agentic-Based Capture the Flag Challenge (CTF) 2025
 A collection of Capture The Flag (CTF) challenges and solutions focused on adversarial machine learning and cybersecurity.
 Agentic-based CTF - using LLMs such as ChatGPT, Gemini, and Claude to find vulnerabilities in programs.
 
@@ -48,5 +48,5 @@ Also, remember to set up your own API keys.
 
 The Finals involved two challenges: follow the pwnie and Sharpgames.
 
-Follow the pwnie involved finding the file that contains the correct flag, extract the content, and print you have won.
+Follow the pwnie involved in finding the file that contains the correct flag, extract the content, and print you have won.
 Sharp games -> involved extracting the contents of the flag program, which will give you a hint on what to input to win.
